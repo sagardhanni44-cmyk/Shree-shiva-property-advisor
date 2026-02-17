@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background: #333;
+}
+
+.menu a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.property-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.property-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
